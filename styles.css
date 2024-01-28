@@ -1,7 +1,6 @@
 body {
   background-image: url(./images/foodBg.jpg);
   background-size: cover;
-  width: inherit;
 }
 h1,li a {
   color: #f5ff9e;
