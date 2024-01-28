@@ -1,6 +1,8 @@
 body {
   background-image: url(./images/foodBg.jpg);
-  background-size: cover;
+  background-size: 1150px 850px;
+  /* background-size: cover; */
+  /* background-size: contain; */
 }
 h1,li a {
   color: #f5ff9e;
