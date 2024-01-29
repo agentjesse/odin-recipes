@@ -45,10 +45,11 @@ just done it on the ul element */
 /* -----------------------------------------------recipes & flexbox styling */
 .backHome{
   color: #f5ff9e;
-  background-color: #a0a72e;
-  padding: 0.3em;
+  background-color: #aeb531;
+  padding: 0.3em 7em 0.3em 0.5em;
   font-family: Arial, Helvetica, sans-serif;
-  border-radius: 3px;
+  border-radius: 16px;
+  align-self: flex-start;
 }
 .recipeBody{
   display: flex;
@@ -56,10 +57,28 @@ just done it on the ul element */
   align-items: center;
   /* justify-content: stretch; */
 }
-.recipeBody h1{
-  margin-top: 0.2em;
-  /* align-self: flex-start; */
-  /* align-self: flex-end; */
-  align-self: stretch;
+.recipeBody ol{
+  max-width: 800px;
 }
-
+.recipeBody h2{
+  color:#f5ff9e;
+  background-color: #4c5a09;
+  padding: 0.3em;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px 0px 7px 3px #272b00 inset;
+}
+.recipeResult{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  /* below for wrapping on small displays */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.recipeResult h1{
+  margin-left: 0.25em;
+}
+.recipeResult img{
+  box-shadow: 0 0 5px 3px #909e00;
+}
